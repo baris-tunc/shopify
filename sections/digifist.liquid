@@ -1,0 +1,74 @@
+<div>Test</div>
+
+
+
+{% schema %}
+{
+  "name": "Campaign",
+  "tag": "section",
+  "class": "section",
+  "settings":
+  [
+    {
+    "type": "text",
+    "id": "heading",
+    "default": "xx",
+    "label": "Heading"
+  },
+    {
+      "type": "text",
+      "id": "campaignName",
+      "default": "Tüm Kampanyalar",
+      "label": "Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "campaignTitle",
+          "label": "Campaing Name"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+        {
+          "type": "text",
+          "id": "startShop",
+          "label": "Start Shopping"
+        },
+        {
+          "type": "text",
+          "id": "campaignPrivac",
+          "label": "Campaign Conditions"
+        },
+        {
+          "type": "textarea",
+          "id": "modalText",
+          "label": "Modal Text"
+        },
+        {
+          "type": "url",
+          "id": "shopLink",
+          "label": "Campaing Url"
+        },
+        {
+          "type": "image_picker",
+          "id": "campaignImg",
+          "label": "Campaing Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Campaign Page"
+    }
+  ]
+}
+{% endschema %}
