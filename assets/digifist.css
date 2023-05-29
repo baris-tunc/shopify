@@ -45,3 +45,7 @@
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_img{
     width: 6.2rem;
 }
+
+.miniCard img{
+    width: 6.2rem;
+}
