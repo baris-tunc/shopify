@@ -31,6 +31,15 @@
     width: 600px;
 }
 
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: auto;
+    min-width: 28.8rem;
+    height: auto;
+    padding: 0.5rem 0.5rem 0.5rem 1.6rem;
+}
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp .product{
     display: block;
     flex: 1;
