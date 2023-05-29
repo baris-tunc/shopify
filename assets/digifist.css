@@ -37,6 +37,9 @@ html a{
     font-style: normal;
     font-weight: 900;
     font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn svg{
     width: 7px;
