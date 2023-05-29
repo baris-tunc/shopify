@@ -150,13 +150,12 @@ html a{
 .digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem !important;
 }
-.digifistSection .container .section_row .col:nth-child(3) .text h3{
+.digifistSection .container .section_row .col:nth-child(3) .text{
     max-width: 432px;
     margin-left: 56px;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
     margin: 128px 0 59px 56px;
-    max-width: 432px;
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
