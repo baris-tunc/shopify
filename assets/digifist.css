@@ -1,3 +1,6 @@
+*{
+    box-sizing: inherit;
+}
 html a{
     text-decoration: none;
 }
