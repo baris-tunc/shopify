@@ -48,6 +48,9 @@ html a{
     .digifistSection .container .section_row .col:nth-child(3) .miniCard{
         display: none;
     }
+    .mobile{
+        display: block !important;
+    }
 }
 
 
@@ -151,4 +154,6 @@ html a{
 .mySwiper .swiper-image{
     width: 260px;
 }
+
+
 

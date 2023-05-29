@@ -26,6 +26,19 @@
             {%- for image in section.settings.product.images limit:2 -%}
           <div class="swiper-slide">
             <img class="swiper-image" src="{{ image |  img_url:'master'  }}" alt="">
+            {% if forloop.index == 1  %}
+            <div class="miniCard mobile">
+              <a href="{{ section.settings.product.url }}" class="go_pdp">
+                <div class="product">
+                  <h6 class="product_title">{{ section.settings.product_title }}</h6>
+                  <span class="price">{{ section.settings.product_price }}</span>
+                </div>
+                <div>
+                  <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
+                </div>
+              </a>
+            </div>
+            {%- endif -%}
           </div>
             {%- endfor -%}
           </div>
