@@ -15,7 +15,6 @@ html a{
 }
 .digifistSection .container .section_row{
     display: flex;
-    flex-flow: row wrap;
 }
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6.4rem;
