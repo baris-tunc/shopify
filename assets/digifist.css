@@ -13,6 +13,9 @@ html a{
     .digifistSection .container{
         padding: 0 5.6rem;
     }
+    .digifistSection .container .section_row{
+        display: flex;
+    }
     .digifistSection .container .section_row .col:nth-child(1) .text{
         padding-left: 12.4rem;
         margin: 6.9rem 0 0;
@@ -28,6 +31,10 @@ html a{
         font-size: 39px;
         width: 500px;
     }
+    .digifistSection .container .section_row .col:nth-child(3){
+        padding-left: 6.4rem;
+        flex: 0 0 50%;
+    }
 }
 @media screen and (max-width: 480px){
     .digifistSection .container .section_row .col:nth-child(1) .img img{
@@ -38,17 +45,12 @@ html a{
     }
 }
 
-.digifistSection .container .section_row{
-    display: flex;
-}
+
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6.4rem;
     flex: 0 0 50%;
 }
-.digifistSection .container .section_row .col:nth-child(3){
-    padding-left: 6.4rem;
-    flex: 0 0 50%;
-}
+
 
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
     font-family: 'ITC Avant Garde Gothic Pro';
@@ -117,7 +119,7 @@ html a{
     color: #666666;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
-    width: 6.2rem !important;
+    width: 6.2rem;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
     font-family: 'Avenir';
