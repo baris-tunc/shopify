@@ -24,6 +24,7 @@ html a{
 }
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
     font-family: 'ITC Avant Garde Gothic Pro';
+    line-height: 130%;
     font-style: normal;
     font-weight: 700;
     font-size: 39px;
@@ -79,11 +80,32 @@ html a{
     padding-right: 4rem;
 }
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_title{
-    margin: 0 0 0.5rem;
-}
+    color: #000000;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;}
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp .price{
-    color: red;
+    color: #666666;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem !important;
 }
+.digifistSection .container .section_row .col:nth-child(2) .text h3{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #666666;
+}
+.digifistSection .container .section_row .col:nth-child(2) .text .more{
+    color: #000000;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+}
+
