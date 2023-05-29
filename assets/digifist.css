@@ -31,6 +31,10 @@ html a{
         font-size: 39px;
         width: 500px;
     }
+    .digifistSection .container .section_row .col:nth-child(3){
+        padding-left: 6.4rem;
+        flex: 0 0 50%;
+    }
 }
 @media screen and (max-width: 480px){
     .digifistSection .container .section_row .col:nth-child(1) .img img{
