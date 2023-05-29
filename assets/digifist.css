@@ -151,6 +151,8 @@ html a{
     width: 6.2rem !important;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
+    margin: 128px 0 59px 56px;
+    max-width: 432px;
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
@@ -159,6 +161,8 @@ html a{
     color: #666666;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text .more{
+    text-decoration: underline;
+    text-underline-offset: 8px;
     color: #000000;
     font-family: 'Avenir';
     font-style: normal;
