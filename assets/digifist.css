@@ -19,7 +19,7 @@ html a{
     }
     .digifistSection .container .section_row .col:nth-child(1) .text{
         padding-left: 12.4rem;
-        margin: 6.9rem 0 0;
+        margin: 6.9rem 0 9.6rem 0;
     }
     .digifistSection .container .section_row .col:nth-child(1) .img img{
         width: 600px;
@@ -115,6 +115,7 @@ html a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn svg{
     width: 7px;
