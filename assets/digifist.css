@@ -42,10 +42,6 @@
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp .price{
     color: red;
 }
-.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_img{
-    width: 6.2rem;
-}
-
-.miniCard img{
+.digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem;
 }
