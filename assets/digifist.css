@@ -15,7 +15,7 @@ html a{
 }
 @media screen and (min-width: 990px){
     .digifistSection .container{
-        padding: 0 5.6rem;
+        padding: 16rem 5.6rem;
     }
     .digifistSection .container .section_row .col:nth-child(1) .text{
         padding-left: 12.4rem;
