@@ -30,7 +30,12 @@
 .digifistSection .container .section_row .col:nth-child(2) .img img{
     width: 600px;
 }
-
+.digifistSection .container .section_row .col:nth-child(2) .miniCard{
+    position: absolute;
+    bottom: 2.4rem;
+    right: 2.4rem;
+    z-index: 3;
+}
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp{
     display: flex;
     flex-flow: row wrap;
