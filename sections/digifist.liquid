@@ -25,7 +25,7 @@
           <div class="swiper-wrapper">
             {%- for image in section.settings.product.images limit:2 -%}
           <div class="swiper-slide">
-            <img class="" src="{{ image |  img_url:'master'  }}" alt="">
+            <img class="swiper-image" src="{{ image |  img_url:'master'  }}" alt="">
           </div>
             {%- endfor -%}
           </div>

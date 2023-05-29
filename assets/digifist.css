@@ -148,3 +148,7 @@ html a{
     line-height: 22px;
 }
 
+.mySwiper .swiper-image{
+    width: 260px;
+}
+
