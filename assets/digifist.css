@@ -38,6 +38,11 @@ html a{
     font-weight: 900;
     font-size: 12px;
 }
+.digifistSection .container .section_row .col:nth-child(1) .text .shop_btn svg{
+    width: 7px;
+    height: 13px;
+    margin-left: 16.5px;
+}
 .digifistSection .container .section_row .col:nth-child(1) .img{
     padding-left: 6rem;
     margin: 6.8rem 0 0;
