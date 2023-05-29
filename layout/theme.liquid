@@ -43,10 +43,13 @@
     {% style %}
 
       @font-face {
-
-      font-family: 'Avenir';
-      src: url({{ 'Avenir.ttc' | asset_url }}) format('ttc');
+      font-family: "Avenir";
+      src: url("{{ 'Avenir.ttc' | asset_url }}") format("ttc");
       font-style: normal;
+      }
+      @font-face {
+      font-family: "ITC Avant Garde Gothic Pro";
+      src: url("{{ 'ITCAvantGardePro-Bk.otf' | asset_url }}") format("otf");
       }
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
