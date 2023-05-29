@@ -169,9 +169,10 @@ html a{
 .digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem !important;
 }
-
-.digifistSection .container .section_row .col:nth-child(3) .text h3{
+.digifistSection .container .section_row .col:nth-child(3) .text{
     margin: 128px 0 59px 56px;
+}
+.digifistSection .container .section_row .col:nth-child(3) .text h3{
     max-width: 432px;
     font-family: 'Avenir';
     font-style: normal;
