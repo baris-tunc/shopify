@@ -64,7 +64,7 @@
                 <h6 class="product_title">{{ section.settings.product.title }}</h6>
                 <span class="price">{{ section.settings.product.price | money_with_currency }}</span>
               </div>
-              <div>
+              <div style="display: flex">
                 <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
               </div>
             </a>
