@@ -188,6 +188,7 @@ html a{
 
 .mySwiper .swiper-image{
     width: 240px;
+    max-height: 273px !important;
 }
 
 
