@@ -45,6 +45,9 @@ html a{
     .digifistSection .container .section_row .col:nth-child(3) .img img{
         display: none;
     }
+    .digifistSection .container .section_row .col:nth-child(3) .miniCard{
+        display: none;
+    }
 }
 
 
