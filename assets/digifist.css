@@ -7,7 +7,7 @@ html a{
 .digifistSection .container{
     max-width: 160rem;
     margin: 0 auto;
-    padding: 2.4px 6.4rem;
+    padding: 6.4rem 2.4rem ;
 }
 @media screen and (min-width: 990px){
     .digifistSection .container{
