@@ -20,6 +20,9 @@ html a{
     .digifistSection .container .section_row .col:nth-child(1) .img img{
         width: 600px;
     }
+    .digifistSection .container .section_row{
+        display: flex;
+    }
 }
 @media screen and (max-width: 480px){
     .digifistSection .container .section_row .col:nth-child(1) .img img{
@@ -30,9 +33,7 @@ html a{
     }
 }
 
-.digifistSection .container .section_row{
-    display: flex;
-}
+
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6.4rem;
     flex: 0 0 50%;
