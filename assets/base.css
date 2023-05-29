@@ -7,18 +7,6 @@
   font-family: "ITC Avant Garde Gothic Pro";
   src: url('ITCAvantGardePro-Bk.otf') format("otf");
 }
-@font-face {
-  font-family: "ITC Avant Garde Gothic Pro";
-  src: url('ITCAvantGardePro-Bold.otf') format("otf");
-}
-@font-face {
-  font-family: "ITC Avant Garde Gothic Pro";
-  src: url('ITCAvantGardePro-Demi.otf') format("otf");
-}
-@font-face {
-  font-family: "ITC Avant Garde Gothic Pro";
-  src: url('ITCAvantGardePro-Md.otf') format("otf");
-}
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
