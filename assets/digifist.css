@@ -30,3 +30,26 @@
 .digifistSection .container .section_row .col:nth-child(2) .img img{
     width: 600px;
 }
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: auto;
+    min-width: 28.8rem;
+    height: auto;
+    padding: 0.5rem 0.5rem 0.5rem 1.6rem;
+}
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product{
+    display: block;
+    flex: 1;
+    padding-right: 4rem;
+}
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_title{
+    margin: 0 0 0.5rem;
+}
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp .price{
+    color: red;
+}
+.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_img{
+    width: 6.2rem;
+}
