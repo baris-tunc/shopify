@@ -55,8 +55,8 @@ html a{
         right: 16px;
     }
     .product_img{
-        padding: 5px;
-        background: red;
+        padding: 3px;
+        background: #FFFFFF;
     }
     .mobile .product{
         display: none !important;
@@ -165,7 +165,7 @@ html a{
 }
 
 .mySwiper .swiper-image{
-    width: 260px;
+    width: 240px;
 }
 
 
