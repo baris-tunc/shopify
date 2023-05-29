@@ -6,32 +6,31 @@
     <div class="section_row">
       <div class="col">
         <div class="text">
-          <h3>Smarten up your work look or throw on a blazer with jeans for the weekend</h3>
+          <h3>{{ section.settings.heading }}</h3>
           <a href="#" class="shop_btn">SHOP NOW</a>
         </div>
         <div class="img">
-          <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+          <img src="{{ section.settings.img1 }}" alt="">
           <div class="miniCard">
             <a href="" class="go_pdp">
-              <div></div>
-              <div></div>
+              <div>
+                <h6>{{ section.settings.product_title }}</h6>
+                <span class="price">{{ section.settings.product_price }}</span>
+              </div>
+              <div>
+                <img src="{{ section.settings.product_img }}" alt="">
+              </div>
             </a>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="img">
-          <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-          <div class="miniCard">
-            <a href="" class="go_pdp">
-              <div></div>
-              <div></div>
-            </a>
-          </div>
+          <img src="{{ section.settings.img2 }}" alt="">
         </div>
         <div class="text">
-          <h3>Smarten up your work look or throw on a blazer with jeans for the weekend</h3>
-          <a href="#" class="shop_btn">SHOP NOW</a>
+          <h3>{{ section.settings.desc }}</h3>
+          <a href="#" class="shop_btn">Read More</a>
         </div>
       </div>
     </div>
@@ -49,57 +48,36 @@
     {
     "type": "text",
     "id": "heading",
-    "default": "xx",
-    "label": "Heading"
+    "default": "Smarten up your work look or throw on a blazer with jeans for the weekend",
+    "label": "Text1"
   },
     {
-      "type": "text",
-      "id": "campaignName",
-      "default": "Tüm Kampanyalar",
-      "label": "Heading"
-    }
-  ],
-  "blocks": [
+      "type": "image_picker",
+      "id": "img1",
+      "label": "Image1"
+    },
     {
-      "type": "item",
-      "name": "Item",
-      "settings": [
-        {
-          "type": "text",
-          "id": "campaignTitle",
-          "label": "Campaing Name"
-        },
-        {
-          "type": "text",
-          "id": "date",
-          "label": "Date"
-        },
-        {
-          "type": "text",
-          "id": "startShop",
-          "label": "Start Shopping"
-        },
-        {
-          "type": "text",
-          "id": "campaignPrivac",
-          "label": "Campaign Conditions"
-        },
-        {
-          "type": "textarea",
-          "id": "modalText",
-          "label": "Modal Text"
-        },
-        {
-          "type": "url",
-          "id": "shopLink",
-          "label": "Campaing Url"
-        },
-        {
-          "type": "image_picker",
-          "id": "campaignImg",
-          "label": "Campaing Image"
-        }
-      ]
+      "type": "text",
+      "id": "product_title",
+      "default": "Saffiano Leather Bag 2005",
+      "label": "Product Title"
+    },
+    {
+      "type": "text",
+      "id": "product_price",
+      "default": "199.95",
+      "label": "Product Price"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "default": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
+      "label": "Text2"
+    },
+    {
+      "type": "image_picker",
+      "id": "img2",
+      "label": "Image2"
     }
   ],
   "presets": [
