@@ -64,6 +64,9 @@ html a{
     .swiper-image{
         position: relative;
     }
+    .digifistSection .container .section_row .col:nth-child(3){
+        padding-left: 0!important;
+    }
 }
 
 
