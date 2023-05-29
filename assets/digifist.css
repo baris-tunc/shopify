@@ -13,27 +13,12 @@ html a{
     .digifistSection .container{
         padding: 0 5.6rem;
     }
-    .digifistSection .container .section_row{
-        display: flex;
-    }
     .digifistSection .container .section_row .col:nth-child(1) .text{
         padding-left: 12.4rem;
         margin: 6.9rem 0 0;
     }
     .digifistSection .container .section_row .col:nth-child(1) .img img{
         width: 600px;
-    }
-    .digifistSection .container .section_row .col:nth-child(1) .text h3{
-        font-family: 'ITC Avant Garde Gothic Pro';
-        line-height: 130%;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 39px;
-        width: 500px;
-    }
-    .digifistSection .container .section_row .col:nth-child(3){
-        padding-left: 6.4rem;
-        flex: 0 0 50%;
     }
 }
 @media screen and (max-width: 480px){
@@ -45,12 +30,17 @@ html a{
     }
 }
 
-
+.digifistSection .container .section_row{
+    display: flex;
+}
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6.4rem;
     flex: 0 0 50%;
 }
-
+.digifistSection .container .section_row .col:nth-child(3){
+    padding-left: 6.4rem;
+    flex: 0 0 50%;
+}
 
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
     font-family: 'ITC Avant Garde Gothic Pro';
@@ -58,6 +48,7 @@ html a{
     font-style: normal;
     font-weight: 700;
     font-size: 39px;
+    width: 500px;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn{
     background: #000000;
@@ -119,7 +110,7 @@ html a{
     color: #666666;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
-    width: 6.2rem;
+    width: 6.2rem !important;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
     font-family: 'Avenir';
