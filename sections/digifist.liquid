@@ -32,13 +32,13 @@
         <div class="img">
           <img src="{{ section.settings.img2|  img_url:'master' }}" alt="">
           <div class="miniCard">
-            <a href="" class="go_pdp">
+            <a href="{{ section.setting.product.url }}" class="go_pdp">
               <div class="product">
                 <h6 class="product_title">{{ section.settings.product_title }}</h6>
                 <span class="price">{{ section.settings.product_price }}</span>
               </div>
               <div>
-                <img class="product_img" src="{{ section.settings.product_image|  img_url:'master'  }}" alt="">
+                <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
               </div>
             </a>
           </div>
