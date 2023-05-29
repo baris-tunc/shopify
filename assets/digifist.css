@@ -115,6 +115,7 @@ html a{
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
+    font-family: 'Avenir' !important;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn svg{
     width: 7px;
