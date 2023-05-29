@@ -1,23 +1,23 @@
 /* Color custom properties */
 @font-face {
   font-family: "Avenir";
-  src: url("{{ 'Avenir.ttc' | asset_url }}") format("ttc");
+  src: url('Avenir.ttc') format("ttc");
 }
 @font-face {
   font-family: "ITC Avant Garde Gothic";
-  src: url("{{ 'ITCAvantGardePro-Bk.otf' | asset_url }}") format("otf");
+  src: url('ITCAvantGardePro-Bk.otf') format("otf");
 }
 @font-face {
   font-family: "ITC Avant Garde Gothic";
-  src: url("{{ 'ITCAvantGardePro-Bold.otf' | asset_url }}") format("otf");
+  src: url('ITCAvantGardePro-Bold.otf') format("otf");
 }
 @font-face {
   font-family: "ITC Avant Garde Gothic";
-  src: url("{{ 'ITCAvantGardePro-Demi.otf' | asset_url }}") format("otf");
+  src: url('ITCAvantGardePro-Demi.otf') format("otf");
 }
 @font-face {
   font-family: "ITC Avant Garde Gothic";
-  src: url("{{ 'ITCAvantGardePro-Md.otf' | asset_url }}") format("otf");
+  src: url('ITCAvantGardePro-Md.otf') format("otf");
 }
 :root,
 .color-background-1 {
