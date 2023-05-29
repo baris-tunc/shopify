@@ -96,8 +96,8 @@ html a{
 }
 .digifistSection .container .section_row .col:nth-child(3) .miniCard{
     position: absolute;
-    bottom: -284px;
-    right: 135px;
+    bottom: 46px;
+    right: 113px;
     z-index: 999;
     background: #ffff;
 }
