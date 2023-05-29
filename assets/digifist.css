@@ -57,9 +57,9 @@ html a{
 }
 .digifistSection .container .section_row .col:nth-child(2) .miniCard{
     position: absolute;
-    bottom: 2.4rem;
-    right: 2.4rem;
-    z-index: 3;
+    bottom: -284px;
+    right: 135px;
+    z-index: 999;
     background: #ffff;
 }
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp{
