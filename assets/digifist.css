@@ -30,6 +30,9 @@ html a{
     .digifistSection .container .section_row .col:nth-child(1) .text h3{
         width: 500px;
     }
+    .digifistSection .container .section_row .col:nth-child(3){
+        display: none;
+    }
 }
 
 
