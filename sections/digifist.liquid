@@ -17,7 +17,11 @@
             </svg></a>
         </div>
         <div class="img">
+          {% if section.settings.image2 != null or section.settings.image2 != blank   %}
+            <img src="{{ section.settings.product.image2 | img_url: 'master' }}" alt="">
+          {%- else -%}
           <img src="{{ section.settings.product.images[1] | img_url: 'master' }}" alt="">
+          {%- endif -%}
         </div>
       </div>
       <div class="col">
@@ -42,7 +46,11 @@
       </div>
       <div class="col">
         <div class="img">
-          <img src="{{ section.settings.product.images | first | img_url: 'master' }}" alt="">
+          {% if section.settings.image1 != null or section.settings.image1 != blank   %}
+            <img src="{{ section.settings.product.image1 | img_url: 'master' }}" alt="">
+          {%- else -%}
+            <img src="{{ section.settings.product.images | first | img_url: 'master' }}" alt="">
+          {%- endif -%}
           <div class="miniCard">
             <a href="{{ section.settings.product.url }}" class="go_pdp">
               <div class="product">
@@ -84,6 +92,16 @@
       "id": "desc",
       "default": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
       "label": "Text2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image2"
     },
     {
       "type": "product",
