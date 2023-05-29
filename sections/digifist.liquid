@@ -10,8 +10,7 @@
           <a href="#" class="shop_btn">SHOP NOW</a>
         </div>
         <div class="img">
-          <img src="https://picsum.photos/200/300
-" alt="">
+          <img src="{{ section.settings.img1|  img_url:'master'  }}" alt="">
           <div class="miniCard">
             <a href="" class="go_pdp">
               <div>
@@ -19,6 +18,7 @@
                 <span class="price">{{ section.settings.product_price }}</span>
               </div>
               <div>
+                <img src="{{ section.settings.product_img|  img_url:'master'  }}" alt="">
               </div>
             </a>
           </div>
@@ -26,7 +26,7 @@
       </div>
       <div class="col">
         <div class="img">
-          <img src="https://picsum.photos/200/300" alt="">
+          <img src="{{ section.settings.img2|  img_url:'master' }}" alt="">
         </div>
         <div class="text">
           <h3>{{ section.settings.desc }}</h3>
