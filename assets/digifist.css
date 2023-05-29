@@ -2,6 +2,13 @@ html a{
     text-decoration: none;
 }
 .digifistSection .container{
+    max-width: 160rem;
+    margin: 0 auto;
+}
+@media screen and (min-width: 990px){
+    .digifistSection .container{
+        padding: 0 5.6rem;
+    }
 }
 .digifistSection .container .section_row{
     display: flex;
