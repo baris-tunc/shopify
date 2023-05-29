@@ -11,18 +11,16 @@
     padding-right: 6rem;
     flex: 0 0 50%;
 }
+.digifistSection .container .section_row col:nth-child(2){
+    padding-left: 6.4rem;
+    flex: 0 0 50%;
+}
 .digifistSection .container .section_row col:nth-child(1) .text{
     padding-left: 6rem;
-    margin: 6.8rem 0 0;
+    margin: 6.9rem 0 0;
 }
 .digifistSection .container .section_row col:nth-child(1) .img{
     padding-left: 6rem;
     margin: 6.8rem 0 0;
     position: relative;
-}
-.digifistSection .container .section_row col:nth-child(1) .img img{
-   width: 600px;
-}
-.digifistSection .container .section_row col:nth-child(2) .img img{
-    width: 600px;
 }
