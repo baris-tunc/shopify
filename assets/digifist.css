@@ -17,4 +17,8 @@
 .digifistSection .container .section_row col:nth-child(1) .img{
     padding-left: 6rem;
     margin: 6.8rem 0 0;
+    position: relative;
+}
+.digifistSection .container .section_row col:nth-child(1) .img img{
+   width: 100%;
 }
