@@ -7,19 +7,19 @@
     display: flex;
     flex-flow: row wrap;
 }
-.digifistSection .container .section_row col:nth-child(1){
+.digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6rem;
     flex: 0 0 50%;
 }
-.digifistSection .container .section_row col:nth-child(2){
+.digifistSection .container .section_row .col:nth-child(2){
     padding-left: 6.4rem;
     flex: 0 0 50%;
 }
-.digifistSection .container .section_row col:nth-child(1) .text{
+.digifistSection .container .section_row .col:nth-child(1) .text{
     padding-left: 6rem;
     margin: 6.9rem 0 0;
 }
-.digifistSection .container .section_row col:nth-child(1) .img{
+.digifistSection .container .section_row .col:nth-child(1) .img{
     padding-left: 6rem;
     margin: 6.8rem 0 0;
     position: relative;
