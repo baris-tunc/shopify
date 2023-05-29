@@ -5,13 +5,6 @@ html a{
     text-decoration: none;
 }
 
-@font-face {
-
-    font-family: 'Avenir';
-    src: url('assets/Avenir.ttc') format('ttc');
-    font-style: normal;
-}
-
 
 
 
