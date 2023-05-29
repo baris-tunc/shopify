@@ -23,7 +23,14 @@ html a{
     .digifistSection .container .section_row{
         display: flex;
     }
+    .digifistSection .container .section_row .col:nth-child(1) .text h3{
+        width: 500px;
+    }
 }
+
+
+
+
 @media screen and (max-width: 480px){
     .digifistSection .container .section_row .col:nth-child(1) .img img{
         display: none;
