@@ -13,10 +13,12 @@ html a{
     .digifistSection .container{
         padding: 0 5.6rem;
     }
+    .digifistSection .container .section_row .col:nth-child(1) .text{
+        padding-left: 12.4rem;
+        margin: 6.9rem 0 0;
+    }
 }
-@media only screen and (max-width: 600px) {
 
-}
 .digifistSection .container .section_row{
     display: flex;
 }
@@ -28,10 +30,7 @@ html a{
     padding-left: 6.4rem;
     flex: 0 0 50%;
 }
-.digifistSection .container .section_row .col:nth-child(1) .text{
-    padding-left: 12.4rem;
-    margin: 6.9rem 0 0;
-}
+
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
     font-family: 'ITC Avant Garde Gothic Pro';
     line-height: 130%;
