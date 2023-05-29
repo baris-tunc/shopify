@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="col">
-        <swiper-container>
+        <swiper-container class="mySwiper">
           <swiper-slide>Slide 1</swiper-slide>
           <swiper-slide>Slide 2</swiper-slide>
           <swiper-slide>Slide 3</swiper-slide>
@@ -45,7 +45,7 @@
     </div>
   </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+<script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
 
 {% schema %}
 {
