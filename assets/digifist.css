@@ -31,6 +31,7 @@ html a{
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn{
     background: #000000;
+    color: #FFFFFF;
     padding: 12px 24px;
     font-family: 'Avenir';
     font-style: normal;
