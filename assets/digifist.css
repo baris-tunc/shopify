@@ -1,4 +1,6 @@
-
+html a{
+    text-decoration: none;
+}
 .digifistSection .container{
     max-width: 160rem;
     padding: 16rem 5rem;
