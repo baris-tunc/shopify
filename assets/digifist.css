@@ -159,9 +159,13 @@ html a{
     font-style: normal;
     font-weight: 900;
     font-size: 12.8px;
-    line-height: 17px;}
+    line-height: 17px;
+    margin: 0 0 5px 0;
+}
 .digifistSection .container .section_row .col:nth-child(3) .go_pdp .price{
     color: #666666;
+    font-weight: 400;
+    font-size: 12.8px;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem !important;
