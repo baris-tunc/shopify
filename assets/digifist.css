@@ -30,13 +30,13 @@
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6rem;
     flex: 0 0 50%;
-    font-family: "ITC Avant Garde Gothic" !important;
 }
 .digifistSection .container .section_row .col:nth-child(2){
     padding-left: 6.4rem;
     flex: 0 0 50%;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text{
+    font-family: "ITC Avant Garde Gothic" !important;
     padding-left: 6rem;
     margin: 6.9rem 0 0;
 }
