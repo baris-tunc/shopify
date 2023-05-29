@@ -99,7 +99,7 @@ html a{
 }
 
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
-    font-family: ITC Avant Garde Gothic Pro;
+    font-family: 'ITC Avant Garde Gothic Pro';
     line-height: 130%;
     font-style: normal;
     font-weight: 700;
