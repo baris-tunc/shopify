@@ -1,6 +1,7 @@
 .digifistSection .container{
     max-width: 160rem;
     padding: 0 5rem;
+    margin: 0 auto;
 }
 .digifistSection .container .section_row{
     display: flex;
