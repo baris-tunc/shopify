@@ -29,10 +29,6 @@
             {% if forloop.index == 1  %}
             <div class="miniCard mobile">
               <a href="{{ section.settings.product.url }}" class="go_pdp">
-                <div class="product">
-                  <h6 class="product_title">{{ section.settings.product_title }}</h6>
-                  <span class="price">{{ section.settings.product_price }}</span>
-                </div>
                 <div>
                   <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
                 </div>

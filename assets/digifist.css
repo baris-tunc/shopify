@@ -50,6 +50,13 @@ html a{
     }
     .mobile{
         display: block !important;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+    }
+    .product_img{
+        padding: 5px;
+        background: red;
     }
     .mobile .product{
         display: none !important;
