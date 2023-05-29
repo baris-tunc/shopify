@@ -141,6 +141,7 @@ html a{
     right: 113px;
     z-index: 999;
     background: #ffff;
+    font-family: 'Avenir' !important;
 }
 .digifistSection .container .section_row .col:nth-child(3) .go_pdp{
     display: flex;
@@ -181,6 +182,8 @@ html a{
     font-size: 20px;
     line-height: 160%;
     color: #666666;
+    font-family: 'Avenir' !important;
+
 }
 .digifistSection .container .section_row .col:nth-child(3) .text .more{
     text-decoration: underline;
@@ -190,6 +193,8 @@ html a{
     font-weight: 900;
     font-size: 16px;
     line-height: 22px;
+    font-family: 'Avenir' !important;
+
 }
 
 .mySwiper .swiper-image{
