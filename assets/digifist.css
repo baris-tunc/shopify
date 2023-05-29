@@ -99,7 +99,6 @@ html a{
 }
 
 .digifistSection .container .section_row .col:nth-child(1) .text h3{
-    font-family: 'ITC Avant Garde Gothic Pro';
     line-height: 130%;
     font-style: normal;
     font-weight: 700;
@@ -115,7 +114,6 @@ html a{
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
-    font-family: 'Avenir' !important;
 }
 .digifistSection .container .section_row .col:nth-child(1) .text .shop_btn svg{
     width: 7px;
@@ -141,7 +139,6 @@ html a{
     right: 113px;
     z-index: 999;
     background: #ffff;
-    font-family: 'Avenir' !important;
 }
 .digifistSection .container .section_row .col:nth-child(3) .go_pdp{
     display: flex;
@@ -182,7 +179,6 @@ html a{
     font-size: 20px;
     line-height: 160%;
     color: #666666;
-    font-family: 'Avenir' !important;
 
 }
 .digifistSection .container .section_row .col:nth-child(3) .text .more{
@@ -193,7 +189,6 @@ html a{
     font-weight: 900;
     font-size: 16px;
     line-height: 22px;
-    font-family: 'Avenir' !important;
 
 }
 
