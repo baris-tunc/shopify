@@ -77,11 +77,11 @@ html a{
         font-size: 14px;
     }
     .digifistSection .container .section_row .col:nth-child(3) .text h3{
-        margin: 32px 0 24px 0;
+        margin: 32px 0 24px 0 !important;
         font-family: 'Avenir';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 16px !important;
         line-height: 160%;
         color: #666666;
     }
