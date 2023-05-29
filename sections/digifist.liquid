@@ -23,8 +23,11 @@
       <div class="col">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 12333</div>
-          <div class="swiper-slide">Slide 122222</div>
+            {%- for image in section.settings.product.images limit:2 -%}
+          <div class="swiper-slide">
+            <img class="" src="{{ images |  img_url:'master'  }}" alt="">
+          </div>
+            {%- endfor -%}
           </div>
         </div>
       </div>
