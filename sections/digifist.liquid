@@ -23,7 +23,7 @@
                 <span class="price">{{ section.settings.product_price }}</span>
               </div>
               <div>
-                <img src="{{ section.settings.product_img|  img_url:'master'  }}" alt="">
+                <img src="{{ section.settings.product_image|  img_url:'master'  }}" alt="">
               </div>
             </a>
           </div>
@@ -78,6 +78,11 @@
       "type": "image_picker",
       "id": "img2",
       "label": "Image2"
+    },
+    {
+      "type": "image_picker",
+      "id": "product_image",
+      "label": "Product İmage"
     }
   ],
   "presets": [
