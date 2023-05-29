@@ -27,20 +27,27 @@
       <div class="col">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            {%- for image in section.settings.product.images limit:2 -%}
-          <div class="swiper-slide">
-            <img class="swiper-image" src="{{ image |  img_url:'master'  }}" alt="">
-            {% if forloop.index == 1  %}
-            <div class="miniCard mobile">
-              <a href="{{ section.settings.product.url }}" class="go_pdp">
-                <div>
-                  <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
-                </div>
-              </a>
+            <div class="swiper-slide">
+              {% if section.settings.image2 != null or section.settings.image2 != blank   %}
+                <img src="{{ section.settings.image2 | img_url: 'master' }}" alt="">
+              {%- else -%}
+                <img src="{{ section.settings.product.images[1] | img_url: 'master' }}" alt="">
+              {%- endif -%}
+              <div class="miniCard mobile">
+                <a href="{{ section.settings.product.url }}" class="go_pdp">
+                  <div>
+                    <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
+                  </div>
+                </a>
+              </div>
             </div>
-            {%- endif -%}
-          </div>
-            {%- endfor -%}
+            <div class="swiper-slide">
+              {% if section.settings.image1 != null or section.settings.image1 != blank   %}
+                <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
+              {%- else -%}
+                <img src="{{ section.settings.product.images | first | img_url: 'master' }}" alt="">
+              {%- endif -%}
+            </div>
           </div>
         </div>
       </div>
