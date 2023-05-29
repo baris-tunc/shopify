@@ -54,6 +54,9 @@ html a{
     .mobile .product{
         display: none !important;
     }
+    .swiper-image{
+        position: relative;
+    }
 }
 
 
