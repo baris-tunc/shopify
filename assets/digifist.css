@@ -25,7 +25,7 @@ html a{
     .digifistSection .container .section_row .col:nth-child(1) .img img{
         display: none;
     }
-    .digifistSection .container .section_row .col:nth-child(2) .img img{
+    .digifistSection .container .section_row .col:nth-child(3) .img img{
         display: none;
     }
 }
@@ -37,7 +37,7 @@ html a{
     padding-right: 6.4rem;
     flex: 0 0 50%;
 }
-.digifistSection .container .section_row .col:nth-child(2){
+.digifistSection .container .section_row .col:nth-child(3){
     padding-left: 6.4rem;
     flex: 0 0 50%;
 }
@@ -75,17 +75,17 @@ html a{
 .digifistSection .container .section_row .col:nth-child(1) .img img{
     width: 600px;
 }
-.digifistSection .container .section_row .col:nth-child(2) .img img{
+.digifistSection .container .section_row .col:nth-child(3) .img img{
     width: 600px;
 }
-.digifistSection .container .section_row .col:nth-child(2) .miniCard{
+.digifistSection .container .section_row .col:nth-child(3) .miniCard{
     position: absolute;
     bottom: -284px;
     right: 135px;
     z-index: 999;
     background: #ffff;
 }
-.digifistSection .container .section_row .col:nth-child(2) .go_pdp{
+.digifistSection .container .section_row .col:nth-child(3) .go_pdp{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -94,25 +94,25 @@ html a{
     height: auto;
     padding: 0.5rem 0.5rem 0.5rem 1.6rem;
 }
-.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product{
+.digifistSection .container .section_row .col:nth-child(3) .go_pdp .product{
     display: block;
     flex: 1;
     padding-right: 4rem;
 }
-.digifistSection .container .section_row .col:nth-child(2) .go_pdp .product_title{
+.digifistSection .container .section_row .col:nth-child(3) .go_pdp .product_title{
     color: #000000;
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 900;
     font-size: 12.8px;
     line-height: 17px;}
-.digifistSection .container .section_row .col:nth-child(2) .go_pdp .price{
+.digifistSection .container .section_row .col:nth-child(3) .go_pdp .price{
     color: #666666;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
     width: 6.2rem !important;
 }
-.digifistSection .container .section_row .col:nth-child(2) .text h3{
+.digifistSection .container .section_row .col:nth-child(3) .text h3{
     font-family: 'Avenir';
     font-style: normal;
     font-weight: 400;
@@ -120,7 +120,7 @@ html a{
     line-height: 160%;
     color: #666666;
 }
-.digifistSection .container .section_row .col:nth-child(2) .text .more{
+.digifistSection .container .section_row .col:nth-child(3) .text .more{
     color: #000000;
     font-family: 'Avenir';
     font-style: normal;
