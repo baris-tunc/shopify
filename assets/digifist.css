@@ -4,6 +4,17 @@
 html a{
     text-decoration: none;
 }
+
+@font-face {
+
+    font-family: 'Avenir';
+    src: url('assets/Avenir.ttc') format('ttc');
+    font-style: normal;
+}
+
+
+
+
 .digifistSection .container{
     max-width: 160rem;
     margin: 0 auto;
