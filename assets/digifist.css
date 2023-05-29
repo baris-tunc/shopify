@@ -51,6 +51,9 @@ html a{
     .mobile{
         display: block !important;
     }
+    .mobile .product{
+        display: none !important;
+    }
 }
 
 
