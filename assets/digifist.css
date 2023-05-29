@@ -173,6 +173,7 @@ html a{
     margin: 128px 0 59px 56px;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
+    margin: 0 0 32px 0;
     max-width: 432px;
     font-family: 'Avenir';
     font-style: normal;
