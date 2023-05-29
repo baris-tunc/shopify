@@ -46,8 +46,8 @@
           <div class="miniCard">
             <a href="{{ section.settings.product.url }}" class="go_pdp">
               <div class="product">
-                <h6 class="product_title">{{ section.settings.product_title }}</h6>
-                <span class="price">{{ section.settings.product_price }}</span>
+                <h6 class="product_title">{{ section.settings.product.title }}</h6>
+                <span class="price">{{ section.settings.product.price | money_with_currency }}</span>
               </div>
               <div>
                 <img class="product_img" src="{{ section.settings.product.images | last |  img_url:'master'  }}" alt="">
@@ -80,11 +80,6 @@
     "label": "Text1"
   },
     {
-      "type": "image_picker",
-      "id": "img1",
-      "label": "Image1"
-    },
-    {
       "type": "text",
       "id": "product_title",
       "default": "Saffiano Leather Bag 2005",
@@ -92,25 +87,9 @@
     },
     {
       "type": "text",
-      "id": "product_price",
-      "default": "199.95",
-      "label": "Product Price"
-    },
-    {
-      "type": "text",
       "id": "desc",
       "default": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
       "label": "Text2"
-    },
-    {
-      "type": "image_picker",
-      "id": "img2",
-      "label": "Image2"
-    },
-    {
-      "type": "image_picker",
-      "id": "product_image",
-      "label": "Product İmage"
     },
     {
       "type": "product",
