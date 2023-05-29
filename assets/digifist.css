@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("{{ 'Avenir.ttc' | asset_url }}") format("ttc");
+}
 .digifistSection .container{
     max-width: 160rem;
     padding: 16rem 5rem;
@@ -10,6 +14,7 @@
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6rem;
     flex: 0 0 50%;
+    font-family: Avenir !important;
 }
 .digifistSection .container .section_row .col:nth-child(2){
     padding-left: 6.4rem;
