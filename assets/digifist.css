@@ -35,6 +35,7 @@
     bottom: 2.4rem;
     right: 2.4rem;
     z-index: 3;
+    background: #ffff;
 }
 .digifistSection .container .section_row .col:nth-child(2) .go_pdp{
     display: flex;
