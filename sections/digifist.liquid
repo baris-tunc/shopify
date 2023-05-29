@@ -18,7 +18,7 @@
         </div>
         <div class="img">
           {% if section.settings.image2 != null or section.settings.image2 != blank   %}
-            <img src="{{ section.settings.product.image2 | img_url: 'master' }}" alt="">
+            <img src="{{ section.settings.image2 | img_url: 'master' }}" alt="">
           {%- else -%}
           <img src="{{ section.settings.product.images[1] | img_url: 'master' }}" alt="">
           {%- endif -%}
@@ -47,7 +47,7 @@
       <div class="col">
         <div class="img">
           {% if section.settings.image1 != null or section.settings.image1 != blank   %}
-            <img src="{{ section.settings.product.image1 | img_url: 'master' }}" alt="">
+            <img src="{{ section.settings.image1 | img_url: 'master' }}" alt="">
           {%- else -%}
             <img src="{{ section.settings.product.images | first | img_url: 'master' }}" alt="">
           {%- endif -%}
