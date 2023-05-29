@@ -7,11 +7,15 @@ html a{
 .digifistSection .container{
     max-width: 160rem;
     margin: 0 auto;
+    padding: 2.4px 6.4rem;
 }
 @media screen and (min-width: 990px){
     .digifistSection .container{
         padding: 0 5.6rem;
     }
+}
+@media only screen and (max-width: 600px) {
+
 }
 .digifistSection .container .section_row{
     display: flex;
