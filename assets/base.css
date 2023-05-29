@@ -1,15 +1,23 @@
 /* Color custom properties */
 @font-face {
   font-family: "Avenir";
-  src: url('Avenir.ttc') format("ttc");
+  src: url(https://cdn.shopify.com/s/files/1/0765/9280/8213/files/Avenir.ttc?v=1685351320) format("ttc");
 }
 @font-face {
   font-family: "ITC Avant Garde Gothic Pro";
-  src: url('ITCAvantGardePro-Bk.otf') format("otf");
+  src: url(https://cdn.shopify.com/s/files/1/0765/9280/8213/files/ITCAvantGardePro-Bk.otf?v=1685351340) format("otf");
 }
 @font-face {
-  font-family: "ITC Avant Garde Gothic";
-  src: url('ITCAvantGardePro-Bold.otf') format("otf");
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url(https://cdn.shopify.com/s/files/1/0765/9280/8213/files/ITCAvantGardePro-Bold.otf?v=1685351340) format("otf");
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url(https://cdn.shopify.com/s/files/1/0765/9280/8213/files/ITCAvantGardePro-Demi.otf?v=1685351340) format("otf");
+}
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url(https://cdn.shopify.com/s/files/1/0765/9280/8213/files/ITCAvantGardePro-Md.otf?v=1685351340) format("otf");
 }
 :root,
 .color-background-1 {
