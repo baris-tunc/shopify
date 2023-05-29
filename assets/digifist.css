@@ -13,9 +13,6 @@ html a{
     .digifistSection .container{
         padding: 0 5.6rem;
     }
-    .digifistSection .container .section_row{
-        display: flex;
-    }
     .digifistSection .container .section_row .col:nth-child(1) .text{
         padding-left: 12.4rem;
         margin: 6.9rem 0 0;
@@ -41,7 +38,9 @@ html a{
     }
 }
 
-
+.digifistSection .container .section_row{
+    display: flex;
+}
 .digifistSection .container .section_row .col:nth-child(1){
     padding-right: 6.4rem;
     flex: 0 0 50%;
@@ -118,7 +117,7 @@ html a{
     color: #666666;
 }
 .digifistSection .container .section_row .go_pdp .product_img{
-    width: 6.2rem;
+    width: 6.2rem !important;
 }
 .digifistSection .container .section_row .col:nth-child(3) .text h3{
     font-family: 'Avenir';
