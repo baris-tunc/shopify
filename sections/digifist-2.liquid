@@ -1,4 +1,18 @@
-<div>Test</div>
+<section class="digifistCase">
+  <div class="d-flex">
+    <div class="img">
+      <img src="{{ section.settings.image }}" alt="">
+    </div>
+    <div class="collection">
+      <div>
+        <h1>{{ section.settings.heading }}</h1>
+        <p>{{ section.settings.desc }}</p>
+        <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
+      </div>
+      <div>Slider</div>
+    </div>
+  </div>
+</section>
 
 {% schema %}
 {
@@ -10,19 +24,25 @@
     {
       "type": "text",
       "id": "heading",
-      "default": "Smarten up your work look or throw on a blazer with jeans for the weekenssd",
-      "label": "Text1"
+      "default": "Everyday items, we have something to suit every occasion.",
+      "label": "Heading"
     },
     {
       "type": "text",
       "id": "desc",
-      "default": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
-      "label": "Text2"
+      "default": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "linkText",
+      "default": "Shop all everyday items",
+      "label": "Link Text"
     },
     {
       "type": "image_picker",
-      "id": "image1",
-      "label": "Image1"
+      "id": "image",
+      "label": "Image"
     },
     {
       "type": "image_picker",
@@ -30,9 +50,9 @@
       "label": "Image2"
     },
     {
-      "type": "product",
-      "id": "product",
-      "label": "Product"
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
     }
   ],
   "presets": [
