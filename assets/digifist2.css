@@ -28,6 +28,7 @@
         font-weight: 700;
         font-size: 31.25px;
         color: #000000;
+        margin-bottom: 1.2rem;
     }
     .digifistCase .container .collection .collection-desc p{
         font-family: 'Avenir';
@@ -35,6 +36,7 @@
         font-weight: 400;
         font-size: 16px;
         color: #666666;
+        margin-bottom: 3.2rem;
     }
     .digifistCase .container .collection .collection-desc a{
         text-decoration: none;
