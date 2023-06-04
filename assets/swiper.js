@@ -11,10 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
             nextEl: '.swiper-arrows .next',
             prevEl: '.swiper-arrows .prev'
         },
-        lazy: {
-            loadPrevNext: true,
-            loadOnTransitionStart: true
-        },
         slidesPerView: 2,
         spaceBetween: 49,
         breakpoints: {
