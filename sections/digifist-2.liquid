@@ -40,9 +40,8 @@
       </div>
       <div class="swiper customSlider">
        <div class="swiper-wrapper">
-         <swiper-container  navigation="true">
            {%for product in section.settings.collection.products%}
-           <swiper-slide>
+           <div class="swiper-slide">
              <div>
                <img src="{{product.featured_media | img_url:'master'}}" alt="">
                <p>{{ product.title }}</p>
@@ -50,9 +49,8 @@
                  <span>{{ product.price| money_with_currency }}</span>
                </div>
              </div>
-           </swiper-slide>
+           </div>
            {%endfor%}
-         </swiper-container>
        </div>
       </div>
     </div>
