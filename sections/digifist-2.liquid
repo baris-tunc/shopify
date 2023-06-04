@@ -37,15 +37,9 @@
       <div class="collection-slide mySwiper">
        <div class="swiper-wrapper">
          <swiper-container  navigation="true">
-           <swiper-slide>Slide 1</swiper-slide>
-           <swiper-slide>Slide 2</swiper-slide>
-           <swiper-slide>Slide 3</swiper-slide>
-           <swiper-slide>Slide 4</swiper-slide>
-           <swiper-slide>Slide 5</swiper-slide>
-           <swiper-slide>Slide 6</swiper-slide>
-           <swiper-slide>Slide 7</swiper-slide>
-           <swiper-slide>Slide 8</swiper-slide>
-           <swiper-slide>Slide 9</swiper-slide>
+           {%for product in section.settings.collection.products%}
+           <swiper-slide>{{product.featured_media | img_url:'master'}}</swiper-slide>
+           {%endform%}
          </swiper-container>
        </div>
       </div>
