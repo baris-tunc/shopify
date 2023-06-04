@@ -34,8 +34,8 @@
         <p>{{ section.settings.desc }}</p>
         <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
       </div>
-      <div class="collection-slide mySwiper">
-       <div class="swiper-wrapper">
+      <div class="collection-slide">
+       <div class="swiper-wrapper mySwiper">
          <swiper-container  navigation="true">
            {%for product in section.settings.collection.products%}
            <swiper-slide>
@@ -44,13 +44,6 @@
                <p>{{ product.title }}</p>
                <div class="">
                  <span>{{ product.price| money_with_currency }}</span>
-                 {% capture colour_variant %}
-                   {% for variant in product.variants %}
-                     {% for option in variant.options %}
-                       {% if product.options[forloop.index0] == 'Color' %}somestring,{% endif %}
-                     {% endfor %}
-                   {% endfor %}
-                 {% endcapture %}
                </div>
              </div>
            </swiper-slide>
