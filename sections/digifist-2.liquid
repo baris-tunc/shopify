@@ -42,6 +42,9 @@
              <div>
                <img src="{{product.featured_media | img_url:'master'}}" alt="">
                <p>{{ product.title }}</p>
+               <div class="">
+                 <span>{{ product.price| money_with_currency }}</span>
+               </div>
              </div>
            </swiper-slide>
            {%endfor%}
