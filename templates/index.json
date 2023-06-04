@@ -1,7 +1,16 @@
 {
   "sections": {
+    "6111e3c9-cb58-42a4-a29e-a037653058e0": {
+      "type": "digifist-2",
+      "settings": {
+        "heading": "Smarten up your work look or throw on a blazer with jeans for the weekenssd",
+        "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
+        "product": ""
+      }
+    },
     "27aed1fa-611b-4c52-8fe3-aaebe36fa58c": {
       "type": "digifist",
+      "disabled": true,
       "settings": {
         "heading": "Smarten up your work look or throw on a blazer with jeans for the weekend",
         "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus",
@@ -37,6 +46,7 @@
     }
   },
   "order": [
+    "6111e3c9-cb58-42a4-a29e-a037653058e0",
     "27aed1fa-611b-4c52-8fe3-aaebe36fa58c",
     "featured_collection"
   ]
