@@ -1,5 +1,7 @@
 {{ 'digifist2.css' | asset_url | stylesheet_tag }}
-
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
 <section class="digifistCase">
   <div class="container">
     <div class="img">
@@ -11,10 +13,24 @@
         <p>{{ section.settings.desc }}</p>
         <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
       </div>
-      <div class="collection-slide">Slider</div>
+      <div class="collection-slide">
+        <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">Slide 01</li>
+              <li class="splide__slide">Slide 02</li>
+              <li class="splide__slide">Slide 03</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
 
 {% schema %}
 {
