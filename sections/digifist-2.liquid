@@ -39,7 +39,7 @@
          <swiper-container  navigation="true">
            {%for product in section.settings.collection.products%}
            <swiper-slide>{{product.featured_media | img_url:'master'}}</swiper-slide>
-           {%endform%}
+           {%endfor%}
          </swiper-container>
        </div>
       </div>
