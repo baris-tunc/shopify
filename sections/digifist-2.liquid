@@ -44,6 +44,9 @@
                <p>{{ product.title }}</p>
                <div class="">
                  <span>{{ product.price| money_with_currency }}</span>
+                 {% for color_option in product.options_by_name['Color'].values %}
+                   <span>{{ color_option }}</span>
+                 {% endfor %}
                </div>
              </div>
            </swiper-slide>
