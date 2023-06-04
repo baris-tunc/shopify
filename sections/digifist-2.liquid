@@ -1,7 +1,7 @@
 <section class="digifistCase">
   <div class="d-flex">
     <div class="img">
-      <img src="{{ section.settings.image }}" alt="">
+      <img src="{{ section.settings.image| img_url: 'master' }} }}" alt="">
     </div>
     <div class="collection">
       <div>
@@ -43,11 +43,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "image2",
-      "label": "Image2"
     },
     {
       "type": "collection",
