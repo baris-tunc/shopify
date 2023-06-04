@@ -1,0 +1,33 @@
+.digifistCase .container{}
+.digifistCase .container{
+    display: flex;
+}
+.digifistCase .container .collection .collection-desc{
+    margin-left: 12rem;
+}
+.digifistCase .container .collection .collection-desc h1{
+    font-family: 'ITC Avant Garde Gothic Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    color: #000000;
+    margin: 0;
+}
+.digifistCase .container .collection .collection-desc p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin: 0;
+}
+.digifistCase .container .collection .collection-desc a{
+    text-decoration: none;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    color: #000000;
+}
+

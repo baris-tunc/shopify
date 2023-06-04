@@ -1,10 +1,12 @@
+{{ 'digifist2.css' | asset_url | stylesheet_tag }}
+
 <section class="digifistCase">
-  <div class="d-flex">
+  <div class="container">
     <div class="img">
       <img src="{{ section.settings.image| img_url: 'master' }} }}" alt="">
     </div>
     <div class="collection">
-      <div>
+      <div class="collection-desc">
         <h1>{{ section.settings.heading }}</h1>
         <p>{{ section.settings.desc }}</p>
         <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
