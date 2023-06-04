@@ -1,34 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-
-    const topRated = new Swiper('.custom-slider', {
-        direction: 'horizontal',
-        loop: false,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true
+const swiper = new Swiper('.customSlider', {
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20
         },
-        navigation: {
-            nextEl: '.swiper-arrows .next',
-            prevEl: '.swiper-arrows .prev'
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 3,
+            spaceBetween: 30
         },
-        slidesPerView: 2,
-        spaceBetween: 49,
-        breakpoints: {
-            320: {
-                slidesPerView: 1.5
-            },
-            767: {
-                slidesPerView: 3.1
-            },
-            1024: {
-                slidesPerView: 3.1
-            },
-            1280: {
-                slidesPerView: 3.1
-            }
-        },
-        resizeObserver: true
-    });
-
-});
-  
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        }
+    }
+})
