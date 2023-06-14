@@ -52,9 +52,9 @@
 <script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
 
 <script>
-  let labels1 = document.getElementsByClassName("changeLabel");
+  let labels = document.getElementsByClassName("changeLabel");
   for(let i=0;i<labels.length;i++){
-    labels1[i].addEventListener('click',function(e){
+    labels[i].addEventListener('click',function(e){
       let variantImg= e.target.getAttribute("variantimg");
       e.target.closest(".swiper-slide").querySelector(".product_img").src=variantImg;
       console.log("Buradayım be burdayım ",variantImg );
