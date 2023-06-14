@@ -1,3 +1,7 @@
+a{
+    text-decoration: none !important;
+}
+
 .digifistCase .container{
     display: flex;
 }
@@ -35,6 +39,7 @@
 .digifistCase .container .swiper .options input:checked+label{
     border: 0.1rem solid black;
 }
+
 .digifistCase .container .swiper .options label{
 font-size: 0;
 display: block;
@@ -98,6 +103,11 @@ box-shadow: none;
 .digifistCase .container .collection .swiper{
     padding-left: 120px;
 }
+    .digifistCase .container .collection .swiper .options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 768px){
