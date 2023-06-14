@@ -32,6 +32,8 @@
     width: 1px;
     height: 1px;
     margin: -1px;
+    padding: 0;
+    border: 0;
 }
 .digifistCase .container .swiper .options input:checked+label{
     border: 1.5px solid #FFFFFF;}
