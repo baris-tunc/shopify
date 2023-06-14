@@ -16,6 +16,9 @@
     .collection .collection-desc a {
       color: {{ section.settings.linkColor }};
     }
+    .collection .collection-desc h1 {
+      color: {{ section.settings.headingColor }};
+    }
   }
 </style>
 <section class="digifistCase">
@@ -131,12 +134,6 @@
       "id": "mobileLinkColor",
       "label": "Mobile Link Color",
       "default": "#FFFFFF"
-    },
-    {
-      "type": "font_picker",
-      "id": "linkFont",
-      "label": "Link Font",
-      "default": "helvetica_n4"
     },
     {
       "type": "image_picker",
