@@ -30,7 +30,7 @@
         min-width: 50%;
     }
     .digifistCase .container .collection .collection-desc{
-        padding: 0 2.4rem;
+        padding: 9.6rem 10.6rem 6.8rem 12rem;
     }
     .digifistCase .container .collection .collection-desc h1{
         font-family: 'ITC Avant Garde Gothic Pro';
@@ -79,7 +79,7 @@
         flex-direction: column;
     }
     .digifistCase .container .collection .collection-desc{
-        padding: 9.6rem 10.6rem 6.8rem 12rem;
+        padding: 0 2.4rem;
     }
     .digifistCase .container .collection .collection-desc h1{
        display: none !important;
