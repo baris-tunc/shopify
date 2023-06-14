@@ -34,7 +34,7 @@
                   <div>
                    {%for variant in product.variants%}
                      <input type="radio" id="{{ variant.id }}">
-                     <label style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
+                     <label onclick="changeVariant('{{ variant.feature_image.src }}')" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
                    {%endfor%}
                   </div>
                 </div>
@@ -50,6 +50,12 @@
   </div>
 </section>
 <script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
+
+<script>
+  function changeVariant(variantImg) {
+    this.closest('.product_img').src=variantImg;
+  }
+</script>
 
 {% schema %}
 {
