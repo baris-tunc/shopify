@@ -88,9 +88,8 @@
         font-family: 'ITC Avant Garde Gothic Pro';
         font-style: normal;
         font-weight: 700;
-        font-size: 31.25px;
-        color: #000000;
-        margin-bottom: 1.2rem;
+        font-size: 20px;
+        margin-bottom: 1.6rem;
     }
     .digifistCase .container .collection .collection-desc p{
         display: none !important;
