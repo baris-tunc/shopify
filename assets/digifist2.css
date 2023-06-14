@@ -20,109 +20,139 @@
 .digifistCase .container .img img{
     width: 100%;
 }
+
+.digifistCase .container .swiper .options input{
+    position: absolute!important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    word-wrap: normal!important;
+}
+
+.digifistCase .container .swiper .options label{
+background-color: green;
+font-size: 0;
+display: block;
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 1.2rem;
+height: 1.2rem;
+border: none;
+border-radius: 50%;
+border: 0.1rem solid var(--color-border-1);
+cursor: pointer;
+box-shadow: none;
+transition: box-shadow .4s ease-in-out,border .4s ease-in-out,opacity .4s ease-in-out;
+}
 @media screen and (min-width: 990px){
-    .digifistCase .container .img{
-        flex: 1;
-        min-width: 50%;
-    }
-    .digifistCase .container .collection{
-        flex: 1;
-        min-width: 50%;
-    }
-    .digifistCase .container .collection .collection-desc{
-        padding: 9.6rem 10.6rem 6.8rem 12rem;
-    }
-    .digifistCase .container .collection .collection-desc h1{
-        font-family: 'ITC Avant Garde Gothic Pro';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 31.25px;
-        color: #000000;
-        margin-bottom: 1.2rem;
-    }
-    .digifistCase .container .collection .collection-desc h2{
-        display: none !important;
-    }
-    .digifistCase .container .collection .collection-desc p{
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        color: #666666;
-        margin-bottom: 3.2rem;
-    }
-    .digifistCase .container .collection .collection-desc a{
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 12.8px;
-        line-height: 17px;
-        color: #000000;
-    }
-    .digifistCase .container .collection .collection-slide{
-        margin-left: 12rem;
-    }
-    .digifistCase .container .collection .swiper .product_img{
-        width: 100%;
-    }
-    .digifistCase .container .collection .swiper{
-        padding-left: 120px;
-    }
+.digifistCase .container .img{
+    flex: 1;
+    min-width: 50%;
+}
+.digifistCase .container .collection{
+    flex: 1;
+    min-width: 50%;
+}
+.digifistCase .container .collection .collection-desc{
+    padding: 9.6rem 10.6rem 6.8rem 12rem;
+}
+.digifistCase .container .collection .collection-desc h1{
+    font-family: 'ITC Avant Garde Gothic Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    color: #000000;
+    margin-bottom: 1.2rem;
+}
+.digifistCase .container .collection .collection-desc h2{
+    display: none !important;
+}
+.digifistCase .container .collection .collection-desc p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 3.2rem;
+}
+.digifistCase .container .collection .collection-desc a{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    color: #000000;
+}
+.digifistCase .container .collection .collection-slide{
+    margin-left: 12rem;
+}
+.digifistCase .container .collection .swiper .product_img{
+    width: 100%;
+}
+.digifistCase .container .collection .swiper{
+    padding-left: 120px;
+}
 }
 
 @media screen and (max-width: 768px){
-    .digifistCase .container .img{
-        flex: 1;
-        min-width: 50%;
-    }
-    .digifistCase .container{
-        flex-direction: column;
-    }
-    .digifistCase .container .collection{
-        margin-top: -200px;
-    }
-    .digifistCase .container .collection .collection-desc{
-        padding: 0 2.4rem;
-        margin-bottom: 32px;
-    }
-    .digifistCase .container .collection .collection-desc h1{
-       display: none !important;
-    }
-    .digifistCase .container .collection .collection-desc h2{
-        font-family: 'ITC Avant Garde Gothic Pro';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        color: #FFFFFF;
-        margin-bottom: 1.6rem;
-    }
-    .digifistCase .container .collection .collection-desc p{
-        display: none !important;
-    }
-    .digifistCase .container .collection .collection-desc a{
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 12.8px;
-        line-height: 17px;
-        text-transform: capitalize;
-        color: #FFFFFF;
-    }
-    .digifistCase .container .collection .collection-slide{
-        margin-left: 12rem;
-    }
-    .digifistCase .container .collection .swiper .product_img{
-        width: 100%;
-    }
-    .digifistCase .container .collection .swiper{
-        padding: 0 2.4rem;
-    }
-    .digifistCase .container .collection .swiper .swiper_product_title,
-    .digifistCase .container .collection .swiper .product_price{
-        font-family: 'Avenir';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12.8px;
-    }
+.digifistCase .container .img{
+    flex: 1;
+    min-width: 50%;
+}
+.digifistCase .container{
+    flex-direction: column;
+}
+.digifistCase .container .collection{
+    margin-top: -200px;
+}
+.digifistCase .container .collection .collection-desc{
+    padding: 0 2.4rem;
+    margin-bottom: 32px;
+}
+.digifistCase .container .collection .collection-desc h1{
+   display: none !important;
+}
+.digifistCase .container .collection .collection-desc h2{
+    font-family: 'ITC Avant Garde Gothic Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 1.6rem;
+}
+.digifistCase .container .collection .collection-desc p{
+    display: none !important;
+}
+.digifistCase .container .collection .collection-desc a{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.digifistCase .container .collection .collection-slide{
+    margin-left: 12rem;
+}
+.digifistCase .container .collection .swiper .product_img{
+    width: 100%;
+}
+.digifistCase .container .collection .swiper{
+    padding: 0 2.4rem;
+}
+.digifistCase .container .collection .swiper .swiper_product_title,
+.digifistCase .container .collection .swiper .product_price{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+}
 }
 
