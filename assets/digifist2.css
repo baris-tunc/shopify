@@ -108,6 +108,14 @@ box-shadow: none;
         justify-content: space-between;
         align-items: center;
     }
+    .digifistCase .container .collection .swiper .swiper_product_title,
+    .digifistCase .container .collection .swiper .product_price{
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.8px;
+        color: #000000;
+    }
 }
 
 @media screen and (max-width: 768px){
