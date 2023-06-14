@@ -40,6 +40,9 @@
         color: #000000;
         margin-bottom: 1.2rem;
     }
+    .digifistCase .container .collection .collection-desc h2{
+        display: none !important;
+    }
     .digifistCase .container .collection .collection-desc p{
         font-family: 'Avenir';
         font-style: normal;
