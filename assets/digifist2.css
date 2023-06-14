@@ -79,10 +79,11 @@
         flex-direction: column;
     }
     .digifistCase .container .collection{
-        margin-top: -150px;
+        margin-top: -200px;
     }
     .digifistCase .container .collection .collection-desc{
         padding: 0 2.4rem;
+        margin-bottom: 32px;
     }
     .digifistCase .container .collection .collection-desc h1{
        display: none !important;
