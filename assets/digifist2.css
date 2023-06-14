@@ -62,5 +62,8 @@
     .digifistCase .container .collection .swiper .product_img{
         width: 100%;
     }
+    .digifistCase .container .collection .swiper{
+        padding-left: 120px;
+    }
 }
 
