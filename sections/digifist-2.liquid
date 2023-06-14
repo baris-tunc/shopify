@@ -54,7 +54,7 @@
 <script>
   let labels = document.getElementsByClassName("changeLabel");
   for(let i=0;i<labels.length;i++){
-    labels[i].addEventsListener('click',function(e){
+    labels[i].addEventListener('click',function(e){
       let variantImg= e.target.getAttribute("variantImg");
       e.target.closest(".product_img").src=variantImg;
     });
