@@ -11,19 +11,10 @@
     .collection .collection-desc a {
       color: {{ section.settings.mobileLinkColor }};
     }
-    .collection .collection-desc h2 {
-      color: {{ section.settings.mobileHeadingColor }};
-    }
   }
   @media screen and (min-width: 990px) {
     .collection .collection-desc a {
       color: {{ section.settings.linkColor }};
-    }
-    .collection .collection-desc p {
-      color: {{ section.settings.descColor }};
-    }
-    .collection .collection-desc h1 {
-      color: {{ section.settings.headingColor }};
     }
   }
 </style>
@@ -109,7 +100,7 @@
       "type": "color",
       "id": "mobileHeadingColor",
       "label": "Mobile Heading Color",
-      "default": "#FFFFF"
+      "default": "#000000"
     },
     {
       "type": "text",
@@ -121,13 +112,7 @@
       "type": "color",
       "id": "descColor",
       "label": "Desc. Color",
-      "default": "#666666"
-    },
-    {
-      "type": "color",
-      "id": "mobileDescColor",
-      "label": "Mobile Desc. Color",
-      "default": "#FFFFF"
+      "default": "#000000"
     },
     {
       "type": "text",
