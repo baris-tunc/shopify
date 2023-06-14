@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         direction:'horizontal',
         // Default parameters
         slidesPerView: 2.5,
-        spaceBetween: 10,
+        spaceBetween: 32,
         // Responsive breakpoints
         breakpoints: {
             // when window width is >= 320px
