@@ -20,8 +20,8 @@
     width: 100%;
 }
 .digifistCase .container .product_img:hover{
-    transform: scale(1);
     transition: .3s ease-in-out;
+    transform: scale(1.1);
 
 }
 .digifistCase .container .color_variants{
