@@ -73,8 +73,7 @@
         min-width: 50%;
     }
     .digifistCase .container .collection{
-        flex: 1;
-        min-width: 50%;
+        flex-direction: column;
     }
     .digifistCase .container .collection .collection-desc{
         padding: 9.6rem 10.6rem 6.8rem 12rem;
