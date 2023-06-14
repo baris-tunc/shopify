@@ -33,7 +33,7 @@
     word-wrap: normal!important;
 }
 .digifistCase .container .swiper .options input:checked+label{
-    border: 0.5rem solid red;
+    border: 0.1rem solid #FFFFFF;
 }
 .digifistCase .container .swiper .options label{
 font-size: 0;
@@ -45,7 +45,7 @@ background-repeat: no-repeat;
 width: 1.2rem;
 height: 1.2rem;
 border-radius: 50%;
-border: 0.1rem solid #FFFFFF;
+border: 0.1rem solid black;
 cursor: pointer;
 box-shadow: none;
 }
