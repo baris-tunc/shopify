@@ -29,10 +29,10 @@
 }
 .swiper-button-prev,.swiper-button-next{
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 13px;
+    padding: 19px;
 }
 .swiper-button-prev:after,.swiper-button-next:after{
-    color: #000000;
+    display: none !important;
 }
 .digifistCase .container .color_variants{
     display: flex;
