@@ -11,6 +11,9 @@
     .collection .collection-desc a {
       color: {{ section.settings.mobileLinkColor }};
     }
+    .collection .collection-desc h2 {
+      color: {{ section.settings.mobileHeadingColor }};
+    }
   }
   @media screen and (min-width: 990px) {
     .collection .collection-desc a {
@@ -18,6 +21,9 @@
     }
     .collection .collection-desc h1 {
       color: {{ section.settings.headingColor }};
+    }
+    .collection .collection-desc p {
+      color: {{ section.settings.descColor }};
     }
   }
 </style>
