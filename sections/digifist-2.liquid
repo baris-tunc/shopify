@@ -15,6 +15,7 @@
     <div class="collection">
       <div class="collection-desc">
         <h1>{{ section.settings.heading }}</h1>
+        <h2>{{ section.settings.mobileHeading }}</h2>
         <p>{{ section.settings.desc }}</p>
         <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
       </div>
@@ -53,6 +54,12 @@
       "type": "text",
       "id": "heading",
       "default": "Everyday items, we have something to suit every occasion.",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "mobileHeading",
+      "default": "Everyday tops, we have something to suit every occasion.",
       "label": "Heading"
     },
     {

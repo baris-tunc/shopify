@@ -72,7 +72,7 @@
         flex: 1;
         min-width: 50%;
     }
-    .digifistCase .container .collection{
+    .digifistCase .container{
         flex-direction: column;
     }
     .digifistCase .container .collection .collection-desc{
