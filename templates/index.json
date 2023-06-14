@@ -3,11 +3,11 @@
     "6111e3c9-cb58-42a4-a29e-a037653058e0": {
       "type": "digifist-2",
       "settings": {
-        "heading": "Everyday items, we have   something to suit every    occasion.",
+        "heading": "Everyday items, we have <br>   something to suit every <br>    occasion.",
         "headingColor": "#000000",
-        "mobileHeading": "Everyday tops, we have   something to suit every   occasion.",
+        "mobileHeading": "Everyday tops, we have <br>   something to suit every   occasion.",
         "mobileHeadingColor": "#ffffff",
-        "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere    vitae sit tincidunt semper eu proin leo gravida cursus.",
+        "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere <br>   vitae sit tincidunt semper eu proin leo gravida cursus.",
         "descColor": "#000000",
         "linkText": "Shop All Everyday Items",
         "linkColor": "#000000",
