@@ -39,7 +39,6 @@
     border: 0;
 }
 .digifistCase .container .swiper .options input:checked+label{
-    border: 1.5px solid #c3bebe;
     box-shadow: inset 0 0 0 0.15rem
 }
 
