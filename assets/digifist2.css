@@ -24,6 +24,9 @@
     transform: scale(1.1);
 
 }
+.swiper-button-prev,.swiper-button-next{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
 .digifistCase .container .color_variants{
     display: flex;
 }
