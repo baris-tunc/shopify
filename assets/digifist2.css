@@ -32,14 +32,9 @@
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    word-wrap: normal!important;
 }
 .digifistCase .container .swiper .options input:checked+label{
-    border: 0.1rem solid #FFFFFF;
-}
+    border: 1.5px solid #FFFFFF;}
 
 .digifistCase .container .swiper .options label{
 font-size: 0;
