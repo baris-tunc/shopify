@@ -19,6 +19,11 @@
 .digifistCase .container .img img{
     width: 100%;
 }
+.digifistCase .container .img img:hover{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+
+}
 .digifistCase .container .color_variants{
     display: flex;
 }
