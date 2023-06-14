@@ -25,6 +25,9 @@
 .digifistCase .container .color_variants .changeLabel{
     margin: 0 0.2rem;
 }
+.digifistCase .container .collection .swiper a{
+    text-decoration: none;
+}
 
 .digifistCase .container .swiper .options input{
     position: absolute!important;
