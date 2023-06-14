@@ -1,5 +1,6 @@
-window.addEventListener('load', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const swiper = new Swiper('.customSlider', {
+        direction:'horizontal',
         // Default parameters
         slidesPerView: 2.5,
         spaceBetween: 10,
