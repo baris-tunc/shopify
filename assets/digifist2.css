@@ -57,7 +57,7 @@ cursor: pointer;
 box-shadow: none;
 }
 
-@media screen and (min-width: 990px){
+@media screen and (min-width: 768px){
 .digifistCase .container .img{
     flex: 1;
     min-width: 50%;
