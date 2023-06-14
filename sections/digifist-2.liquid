@@ -26,9 +26,9 @@
             <div class="swiper-slide">
               <div>
                 <img class="product_img" src="{{product.featured_media | img_url:'master'}}" alt="">
-                <p>{{ product.title }}</p>
+                <p class="swiper_product_title">{{ product.title }}</p>
                 <div class="">
-                  <span>{{ product.price| money_with_currency }}</span>
+                  <span class="product_price">{{ product.price| money_with_currency }}</span>
                 </div>
               </div>
             </div>
