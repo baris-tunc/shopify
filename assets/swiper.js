@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
         slidesPerView: 2.5,
         spaceBetween: 32,
         // Responsive breakpoints
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
         breakpoints: {
             // when window width is >= 320px
             320: {
