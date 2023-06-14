@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // when window width is >= 640px
             640: {
                 slidesPerView: 2.5,
-                spaceBetween: 10
+                spaceBetween: 32
             }
         }
     })
