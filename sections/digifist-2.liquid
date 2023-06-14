@@ -17,9 +17,8 @@
         <h1>{{ section.settings.heading }}</h1>
         <h2>{{ section.settings.mobileHeading }}</h2>
         <p>{{ section.settings.desc }}</p>
-        <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
-      </div>
-      <!-- Slider main container -->
+        <a href="{{ section.settings.collection.url }}" style="color: {{ section.settings.linkColor }}">{{ section.settings.linkText }}</a>
+      </div>x"x
       <div class="swiper customSlider">
         <div class="swiper-wrapper">
           {%for product in section.settings.collection.products%}
@@ -75,10 +74,22 @@
       "label": "Heading"
     },
     {
+      "type": "color",
+      "id": "headingColor",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
       "type": "text",
       "id": "mobileHeading",
       "default": "Everyday tops, we have something to suit every occasion.",
       "label": "Mobil Heading"
+    },
+    {
+      "type": "color",
+      "id": "mobileHeadingColor",
+      "label": "Mobile Heading Color",
+      "default": "#000000"
     },
     {
       "type": "text",
@@ -87,10 +98,28 @@
       "label": "Text"
     },
     {
+      "type": "color",
+      "id": "descColor",
+      "label": "Desc. Color",
+      "default": "#000000"
+    },
+    {
       "type": "text",
       "id": "linkText",
       "default": "Shop all everyday items",
       "label": "Link Text"
+    },
+    {
+      "type": "color",
+      "id": "linkColor",
+      "label": "Link Color",
+      "default": "#000000"
+    },
+    {
+      "type": "font_picker",
+      "id": "linkFont",
+      "label": "Link Font",
+      "default": "helvetica_n4"
     },
     {
       "type": "image_picker",
