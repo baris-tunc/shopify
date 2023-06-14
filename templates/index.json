@@ -5,7 +5,7 @@
       "settings": {
         "heading": "Everyday items, we have <br> something to suit every <br> occasion.",
         "mobileHeading": "Everyday tops, we have something to suit every occasion.",
-        "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.",
+        "desc": "At suspendisse augue lectus arcu, accumsan ut sit posuere <br> vitae sit tincidunt semper eu proin leo gravida cursus.",
         "linkText": "Shop all everyday items",
         "image": "shopify:\/\/shop_images\/collection.png",
         "collection": "everyday-items"
