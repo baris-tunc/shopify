@@ -78,6 +78,9 @@
     .digifistCase .container{
         flex-direction: column;
     }
+    .digifistCase .container .collection{
+        margin-top: -150px;
+    }
     .digifistCase .container .collection .collection-desc{
         padding: 0 2.4rem;
     }
