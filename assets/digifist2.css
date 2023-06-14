@@ -33,7 +33,7 @@
     word-wrap: normal!important;
 }
 .digifistCase .container .swiper .options input:checked+label{
-    border: 0.1rem solid white;
+    border: 0.5rem solid red;
 }
 .digifistCase .container .swiper .options label{
 background-color: green;
