@@ -41,43 +41,24 @@
       </div>
       <!-- Slider main container -->
       <div class="swiper customSlider">
-        <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          ...
+          {%for product in section.settings.collection.products%}
+            <div class="swiper-slide">
+              <div>
+                <img src="{{product.featured_media | img_url:'master'}}" alt="">
+                <p>{{ product.title }}</p>
+                <div class="">
+                  <span>{{ product.price| money_with_currency }}</span>
+                </div>
+              </div>
+            </div>
+          {%endfor%}
         </div>
-        <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
       </div>
-
-
-      <div class="swiper customSlider">
-       <div class="swiper-wrapper">
-         <div class="swiper-container">
-           {%for product in section.settings.collection.products%}
-             <div class="swiper-slide">
-               <div>
-                 <img src="{{product.featured_media | img_url:'master'}}" alt="">
-                 <p>{{ product.title }}</p>
-                 <div class="">
-                   <span>{{ product.price| money_with_currency }}</span>
-                 </div>
-               </div>
-             </div>
-           {%endfor%}
-       </div>
-      </div>
-    </div>
   </div>
 </section>
 <script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
