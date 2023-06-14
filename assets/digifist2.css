@@ -32,7 +32,9 @@
     clip: rect(0 0 0 0);
     word-wrap: normal!important;
 }
-
+.digifistCase .container .swiper .options input:checked+label{
+    border: 0.1rem solid white;
+}
 .digifistCase .container .swiper .options label{
 background-color: green;
 font-size: 0;
@@ -50,6 +52,7 @@ cursor: pointer;
 box-shadow: none;
 transition: box-shadow .4s ease-in-out,border .4s ease-in-out,opacity .4s ease-in-out;
 }
+
 @media screen and (min-width: 990px){
 .digifistCase .container .img{
     flex: 1;
