@@ -135,6 +135,9 @@ box-shadow: none;
 }
 
 @media screen and (max-width: 989px){
+.swiper-button-prev,.swiper-button-next{
+    display: none !important;
+}
 .digifistCase .container .img{
     flex: 1;
     min-width: 50%;
