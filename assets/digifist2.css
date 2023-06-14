@@ -18,6 +18,13 @@
 }
 .digifistCase .container .img img{
     width: 100%;
+    max-height: 420px;
+}
+.digifistCase .container .color_variants{
+    display: flex;
+}
+.digifistCase .container .color_variants .changeLabel{
+    margin: 0 0.2rem;
 }
 
 .digifistCase .container .swiper .options input{

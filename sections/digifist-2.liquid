@@ -31,7 +31,7 @@
                 </a>
                 <div class="options">
                   <span class="product_price">{{ product.price| money_with_currency }}</span>
-                  <div>
+                  <div class="color_variants">
                    {%for variant in product.variants%}
                      <input type="radio" id="{{ variant.id }}">
                      <label class="changeLabel" variantImg="{{ variant.image | img_url:'master' }}" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
@@ -78,7 +78,7 @@
       "type": "text",
       "id": "mobileHeading",
       "default": "Everyday tops, we have something to suit every occasion.",
-      "label": "Heading"
+      "label": "Mobil Heading"
     },
     {
       "type": "text",
