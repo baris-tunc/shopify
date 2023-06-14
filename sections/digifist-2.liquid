@@ -34,7 +34,7 @@
                   <div>
                    {%for variant in product.variants%}
                      <input type="radio" id="{{ variant.id }}">
-                     <label class="changeLabel" variantImg="{{ variant.image.src }}" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
+                     <label class="changeLabel" variantImg="{{ variant.image }}" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
                    {%endfor%}
                   </div>
                 </div>
@@ -52,11 +52,12 @@
 <script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
 
 <script>
-  let labels = document.getElementsByClassName("changeLabel");
+  let labels1 = document.getElementsByClassName("changeLabel");
   for(let i=0;i<labels.length;i++){
-    labels[i].addEventListener('click',function(e){
+    labels1[i].addEventListener('click',function(e){
       let variantImg= e.target.getAttribute("variantimg");
-      e.target.closest(".product_img").src=variantImg;
+      e.target.closest(".swiper-slide").querySelector(".product_img").src=variantImg;
+      console.log("Buradayım be burdayım ",variantImg );
     });
   }
 </script>
