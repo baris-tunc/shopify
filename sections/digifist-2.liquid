@@ -39,21 +39,21 @@
         <p>{{ section.settings.desc }}</p>
         <a href="{{ section.settings.collection.url }}">{{ section.settings.linkText }}</a>
       </div>
-      <div class="swiper">
-       <div class="swiper-wrapper customSlider">
-         <swiper-container  navigation="true">
+      <div class="swiper customSlider">
+       <div class="swiper-wrapper">
+         <div class="swiper-container">
            {%for product in section.settings.collection.products%}
-           <swiper-slide>
-             <div>
-               <img src="{{product.featured_media | img_url:'master'}}" alt="">
-               <p>{{ product.title }}</p>
-               <div class="">
-                 <span>{{ product.price| money_with_currency }}</span>
+             <div class="swiper-slide">
+               <div>
+                 <img src="{{product.featured_media | img_url:'master'}}" alt="">
+                 <p>{{ product.title }}</p>
+                 <div class="">
+                   <span>{{ product.price| money_with_currency }}</span>
+                 </div>
                </div>
              </div>
-           </swiper-slide>
            {%endfor%}
-         </swiper-container>
+         </div>
        </div>
       </div>
     </div>
