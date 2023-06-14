@@ -24,11 +24,14 @@
     transform: scale(1.1);
 
 }
+.swiper-button-disabled{
+    display: none !important;
+}
 .swiper-button-prev,.swiper-button-next{
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 13px;
 }
-.swiper-button-prev svg:after,.swiper-button-next svg:after{
+.swiper-button-prev:after,.swiper-button-next:after{
     color: #000000;
 }
 .digifistCase .container .color_variants{
