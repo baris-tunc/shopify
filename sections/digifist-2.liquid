@@ -34,7 +34,7 @@
                   <div>
                    {%for variant in product.variants%}
                      <input type="radio" id="{{ variant.id }}">
-                     <label class="changeLabel" variantImg="{{ variant.image }}" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
+                     <label class="changeLabel" variantImg="{{ variant.image | img_url:'master' }}" style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
                    {%endfor%}
                   </div>
                 </div>
