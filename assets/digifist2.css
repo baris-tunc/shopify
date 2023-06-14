@@ -89,6 +89,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
+        color: #FFFFFF;
         margin-bottom: 1.6rem;
     }
     .digifistCase .container .collection .collection-desc p{
@@ -100,7 +101,8 @@
         font-weight: 900;
         font-size: 12.8px;
         line-height: 17px;
-        color: #000000;
+        text-transform: capitalize;
+        color: #FFFFFF;
     }
     .digifistCase .container .collection .collection-slide{
         margin-left: 12rem;
