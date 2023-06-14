@@ -52,13 +52,12 @@
 <script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded',function(){
-    document.getElementsByName('changeLabel').forEach(t => { t.addEventListener('click',changeVariant) })
-  })
-  function changeVariant(e) {
-    let variantImg = e.target.getAttribute('variantImg');
-    e.target.closest('.product_img').src=variantImg;
-    console.log(variantImg);
+  let labels = document.getElementsByClassName("changeLabel");
+  for(let i=0;i<labels.length;i++){
+    labels[i].addEventsListener('click',function(e){
+      let variantImg= e.target.getAttribute("variantImg");
+      e.target.closest(".product_img").src=variantImg;
+    });
   }
 </script>
 
