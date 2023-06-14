@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
     const swiper = new Swiper('.customSlider', {
         // Default parameters
-        slidesPerView: 1,
+        slidesPerView: 2.5,
         spaceBetween: 10,
         // Responsive breakpoints
         breakpoints: {
