@@ -25,10 +25,18 @@
           {%for product in section.settings.collection.products%}
             <div class="swiper-slide">
               <div>
-                <img class="product_img" src="{{product.featured_media | img_url:'master'}}" alt="">
-                <p class="swiper_product_title">{{ product.title }}</p>
-                <div class="">
+                <a href="{{ product.url }}">
+                  <img class="product_img" src="{{product.featured_media | img_url:'master'}}" alt="">
+                  <p class="swiper_product_title">{{ product.title }}</p>
+                </a>
+                <div class="options">
                   <span class="product_price">{{ product.price| money_with_currency }}</span>
+                  <div>
+                   {%for variant in product.variants%}
+                     <input type="radio" id="{{ variant.id }}">
+                     <label style="background-color: {{ variant.title | downcase }}" for="{{ variant.id }}"></label>
+                   {%endfor%}
+                  </div>
                 </div>
               </div>
             </div>
