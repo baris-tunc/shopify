@@ -79,6 +79,9 @@
         padding: 9.6rem 10.6rem 6.8rem 12rem;
     }
     .digifistCase .container .collection .collection-desc h1{
+       display: none !important;
+    }
+    .digifistCase .container .collection .collection-desc h2{
         font-family: 'ITC Avant Garde Gothic Pro';
         font-style: normal;
         font-weight: 700;
