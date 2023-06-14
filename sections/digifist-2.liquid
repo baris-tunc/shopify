@@ -55,7 +55,7 @@
   let labels = document.getElementsByClassName("changeLabel");
   for(let i=0;i<labels.length;i++){
     labels[i].addEventListener('click',function(e){
-      let variantImg= e.target.getAttribute("variantImg");
+      let variantImg= e.target.getAttribute("variantimg");
       e.target.closest(".product_img").src=variantImg;
     });
   }
