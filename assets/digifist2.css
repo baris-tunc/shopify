@@ -59,5 +59,8 @@
     .digifistCase .container .collection .collection-slide{
         margin-left: 12rem;
     }
+    .digifistCase .container .collection .swiper .product_img{
+        width: 100%;
+    }
 }
 
