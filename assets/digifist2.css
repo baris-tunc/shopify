@@ -67,3 +67,50 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .digifistCase .container .img{
+        flex: 1;
+        min-width: 50%;
+    }
+    .digifistCase .container .collection{
+        flex: 1;
+        min-width: 50%;
+    }
+    .digifistCase .container .collection .collection-desc{
+        padding: 9.6rem 10.6rem 6.8rem 12rem;
+    }
+    .digifistCase .container .collection .collection-desc h1{
+        font-family: 'ITC Avant Garde Gothic Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.25px;
+        color: #000000;
+        margin-bottom: 1.2rem;
+    }
+    .digifistCase .container .collection .collection-desc p{
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #666666;
+        margin-bottom: 3.2rem;
+    }
+    .digifistCase .container .collection .collection-desc a{
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12.8px;
+        line-height: 17px;
+        color: #000000;
+    }
+    .digifistCase .container .collection .collection-slide{
+        margin-left: 12rem;
+    }
+    .digifistCase .container .collection .swiper .product_img{
+        width: 100%;
+    }
+    .digifistCase .container .collection .swiper{
+        padding-left: 120px;
+    }
+}
+
