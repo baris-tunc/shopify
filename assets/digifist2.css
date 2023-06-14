@@ -1,6 +1,4 @@
-a{
-    text-decoration: none !important;
-}
+
 
 .digifistCase .container{
     display: flex;
@@ -37,7 +35,7 @@ a{
     word-wrap: normal!important;
 }
 .digifistCase .container .swiper .options input:checked+label{
-    border: 0.1rem solid black;
+    border: 0.1rem solid #FFFFFF;
 }
 
 .digifistCase .container .swiper .options label{
@@ -50,7 +48,7 @@ background-repeat: no-repeat;
 width: 1.2rem;
 height: 1.2rem;
 border-radius: 50%;
-border: 0.1rem solid #FFFFFF;
+border: 0.1rem solid black;
 cursor: pointer;
 box-shadow: none;
 }
